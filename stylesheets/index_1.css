@@ -1,0 +1,82 @@
+body { 
+   /*morado inmundo: #bb05f7*/
+   background-color: #bb05f7;
+}
+
+
+#container{
+	background-color: bb05f7;
+	padding: 1px;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+#header{
+	//background-color: blue;
+	background-color: transparent;
+	padding 1px;
+	position: fixed;
+	height: 12.5%;
+	width: 99%;
+	text-align: center;
+}
+
+#soil{
+	background-color: orange;
+	//background-color: transparent;
+	padding 1px;
+	position: fixed;
+	height: 7%;
+	width: 99%;
+	bottom: 2%
+}
+
+#areamenu{
+	background-color: yellow;
+	height: 78%;
+	width: 20%;
+	padding: 1px;
+	position: absolute;
+	top: 13.5%;
+	
+
+}
+
+#toggle{
+    font-size: 0.8125rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #333333;
+    border-color: transparent;
+    color: white; 
+}
+
+
+#marco{
+	//background-color: green;
+	background-color: transparent;
+	height: 77%;
+	width: 79%;
+	padding: 2px;
+	position: absolute;
+	top: 13.5%;
+	left: 20%;
+	overflow-y: scroll;
+	overflow-x:hidden;
+	opacity: 0.9;
+}
+
+#marco.h1 {
+	font-size: 16px;
+	text-align: center;
+}
+
+#bubbles{
+	background: #bb05f7;
+	padding: 1px;
+	position: absolute;
+	width: 99%;
+	height: 99%;
+	z-index: -1;
+}

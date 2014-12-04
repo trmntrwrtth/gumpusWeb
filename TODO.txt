@@ -1,0 +1,18 @@
+TODO:
+	Ver:
+				
+		Glossy:
+			<script type="text/javascript" src="glossy.js"></script>
+		
+		Moosocialize: http://www.artviper.net/website-tools/moosocialize-ajax-bookmark-widget.php
+		Corner.js: http://www.netzgesta.de/corner/
+		Galleria: http://galleria.io/
+		Fish-eye distortion: http://bost.ocks.org/mike/fisheye/
+	
+
+
+
+
+	
+DONE:		
+		Bubbles: http://fiddle.jshell.net/DYN6U/
