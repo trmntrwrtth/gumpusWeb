@@ -1,11 +1,14 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	font-family: 'RobotoDraft', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	margin: 0;
 	/*morado inmundo: #bb05f7*/
-	background-color: #bb05f7;
+	/*morado dark: #610280*/
+	/*verde infernal: #c0fe00*/
+	/*verde menos doloroso: a4d901*/
+	background-color: #a4d901;
 }
 
 .grid24 {
@@ -23,35 +26,26 @@ body {
 
 /*CABECERA*/
 header{
-	//background-color: transparent;
-	background-color: #bb05f7;
-	opacity: 0.8;
+	background-color: #610280;
+	//opacity: 0.8;
 	position: fixed;
 	top: 0;
 	//width: 100%;
 	height: 20%;
+	z-index: 1;
 }
 
-header h1 {
-	padding-top: 20px;
-	text-align: center;
-	font-size: 40px;
+header img{
+	height: 70%;
+	display: table;
+    text-align: center;
 }
 
-#logo{
-	//display: block;
-	//margin-left: auto;
-	//margin-right: auto;
-	//background-color: black;
-	background-image: url("img/logos/logo250.png");
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 80%;
-}
+
 /*Barra Nav.*/
 nav{
 	position: fixed;
-	top: 15%;
+	top: 14.5%;
 	width: 100%;
 
 }
@@ -60,20 +54,31 @@ nav li {
 	padding-top: 10px;
 	width: 20%;
 	text-align: center;
+	font-family: Chango;
+	color: #c0fe00;
+	box-shadow: 3px 3px 5px rgba(50, 50, 50, .5);
 }
 
 nav li:hover {
 	background-color: #c0fe00;
-	font-weight: bold;
+	color: black;
+	box-shadow: 3px 3px 3px 6px rgba(50, 50, 50, .5);
+}
+
+nav li.marcado{
+	background-color: #bb05f7;
+	color: #c0fe00;
+	box-shadow: 0px 3px 5px rgba(50, 50, 50, .5);
 }
 
 
 /*Main*/
 main {
 	width: 66%;
-	//position: fixed;
-	//left:0;
-	background-color: green;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	background-color: #bb05f7;
 	padding-top: 20px;
 	padding-bottom: 120px;
 	float: left;
@@ -87,10 +92,35 @@ main img {
 	width: 240px;
 }
 
+h2{
+	text-align: center;
+	font-family: Chango;
+	font-size: 35;
+	text-shadow: 2px 2px #545454;
+	color: #c0fe00;
+}
+
+h3{
+	text-indent: 50px;
+	font-family: Chango;
+	font-size: 25;
+	text-shadow: 2px 2px #545454;
+	color: #c0fe00;
+}
+
+main article{
+	background-color: 610280;
+	padding: 1px;
+	padding-bottom: 2px;
+	margin-bottom: 20px;
+
+}
+
+
 /*Aside*/
 aside {
 	background-color: #bb05f7;
-	opacity: 0.8;
+	//opacity: 0.8;
 	position: fixed;
 	right: 0;
 	top: 20%;
@@ -98,6 +128,7 @@ aside {
 	float: right;
 	width: 33%;
 	height: 80%;
+	//overflow-y: scroll;
 }
 
 aside div {
@@ -144,13 +175,12 @@ button {
 
 
 footer {
-	background: yellow;
+	background: #610280;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	//background: white;
-	//background-color: rgba(128,128,128,0.2);
 	padding-bottom: 20px;
+	box-shadow: 0px -3px 5px rgba(50, 50, 50, .5);
 }
 
 ul {
@@ -161,14 +191,35 @@ li {
 	list-style-type: none;
 	float: left;
 	height: 30px;
-	cursor:pointer;
+	cursor: pointer;
+}
+
+footer li {
+	float: right;
+	padding-right: 20px;
+	height: 20px;
+	cursor: default;
 }
 
 
-footer li {
-	float: left;
-	padding-left: 20px;
-	height: 20px;
+.back-to-top {
+    position: fixed;
+    bottom: 8%;
+    left: 55%;
+    //text-decoration: none;
+    color: #c0fe00;
+    background-color: #610280;
+    opacity: 0.9;
+    font-family: Chango;
+    font-size: 15px;
+    padding: 1em;
+    z-index: 1;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #610280;
+    opacity: 0.7;
 }
 
 
