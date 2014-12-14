@@ -11,6 +11,22 @@ body {
 	background-color: #a4d901;
 }
 
+h2{
+	text-align: center;
+	font-family: Chango;
+	font-size: 35;
+	text-shadow: 2px 2px #545454;
+	color: #c0fe00;
+}
+
+h3{
+	text-indent: 50px;
+	font-family: Chango;
+	font-size: 25;
+	text-shadow: 2px 2px #545454;
+	color: #c0fe00;
+}
+
 .grid24 {
 	width: 100%;
 }
@@ -88,24 +104,18 @@ main {
 main div {
 	padding: 20px;
 }
+
 main img {
 	width: 240px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-h2{
-	text-align: center;
-	font-family: Chango;
-	font-size: 35;
-	text-shadow: 2px 2px #545454;
-	color: #c0fe00;
-}
-
-h3{
-	text-indent: 50px;
-	font-family: Chango;
-	font-size: 25;
-	text-shadow: 2px 2px #545454;
-	color: #c0fe00;
+main video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 main article{
@@ -113,7 +123,6 @@ main article{
 	padding: 1px;
 	padding-bottom: 2px;
 	margin-bottom: 20px;
-
 }
 
 
@@ -156,7 +165,14 @@ button {
 	cursor: pointer;
 	width: 240px;
 	height: 30px;
-	border-radius: 10px;
+	//border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #c0fe00;
+    background-color: #610280;
+    font-family: Chango;
+    font-size: 15px;
 }
 
 .buttonGroup {
